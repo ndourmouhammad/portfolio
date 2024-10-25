@@ -1308,3 +1308,22 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+/* Mobile Responsive */
+@media (max-width: 576px) {
+	h1 {
+		font-size: 1.9rem;
+		line-height: normal;
+		text-align: start;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+		line-height: normal;
+	}
+
+	h5 {
+		font-size: 1rem;
+		line-height: normal;
+	}
+}

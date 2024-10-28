@@ -29,8 +29,7 @@
 
     <!-- Webpage Title -->
     <title>
-      KAAY-ENTREPRENDRE - Réalisation d’une application web pour
-      l'accompagnement des entrepreneurs.
+      Mise en place d’une plateforme de promotion des sites touristiques au Sénégal : Sénégal en vue
     </title>
 
     <!-- Styles -->
@@ -127,8 +126,7 @@
         <div class="row">
           <div class="col-xl-10 offset-xl-1">
             <h1>
-              KAAY-ENTREPRENDRE - Réalisation d’une application web pour
-              l'accompagnement des entrepreneurs
+              Mise en place d’une plateforme de promotion des sites touristiques au Sénégal : Sénégal en vue
             </h1>
             
           </div>
@@ -146,9 +144,7 @@
       <div class="container">
         <h2>
           Demo de la plateforme :
-          <a href="https://youtu.be/HAIEIsnZu7I" target="_blank">
-            Lien de la démo</a
-          >
+          <p>A ajouter ...</p>
         </h2>
         <!-- <div class="row">
                 <div class="col-lg-12">
@@ -171,33 +167,13 @@
         <div class="row">
           <div class="col-xl-10 offset-xl-1 text-justify">
             <p>
-              Le projet « kaay entreprendre » se situe dans un monde en
-              perpétuelle évolution où l'entrepreneuriat joue un rôle de plus en
-              plus crucial. De nombreuses personnes aspirent à créer leur propre
-              entreprise et à réaliser leurs projets innovants. Cependant, se
-              lancer dans l'entrepreneuriat peut être intimidant, surtout pour
-              les novices qui manquent de connaissances et d'expérience. C'est
-              dans ce contexte que la plateforme « kaay entreprendre » voit le
-              jour.
+              Le projet, intitulé « Sénégal en vue », vise à développer une plateforme numérique pour promouvoir les attractions touristiques méconnues du Sénégal. 
             </p>
             <p>
-              Son objectif est de répondre au besoin croissant d'accompagnement
-              et de soutien pour les entrepreneurs débutants.
+              Elle facilite la mise en relation entre guides locaux et touristes grâce à des fonctionnalités comme l'abonnement aux guides, l'échange dans le blog, la gestion de réservation et un système de notation.
             </p>
             <p>
-              La plateforme souhaite démocratiser l'accès à l'entrepreneuriat en
-              fournissant une source fiable d'informations et d'outils pratiques
-              pour aider les utilisateurs à concrétiser leur projet avec succès.
-            </p>
-            <p>
-              En tant que développeur full-stack, nous sommes chargés de
-              contribuer à la création de « kaay entreprendre » Cette plateforme
-              se veut être un point de rencontre entre les élèves, les nouveaux
-              bacheliers, les jeunes diplômés, les professionnels en
-              reconversion et des mentors certifiés. Notre mission consiste à
-              mettre en place une solution informatique complète en développant
-              une application web composée de deux stacks : une API RestFull et
-              une interface utilisateur réactive et intuitive.
+              En utilisant Laravel pour le backend et Vue.js pour le frontend, la plateforme offre une solution complète, contribuant à la valorisation du patrimoine et au développement économique local.
             </p>
           </div>
           <!-- end of col -->
@@ -212,7 +188,7 @@
     <!-- Cards -->
     <div class="ex-cards-1 pt-3 pb-3">
       <div class="container">
-        <h2 class="mb-3">Fonctionnalités</h2>
+        <h2 class="mb-3">Spécifications fonctionnelles par modules</h2>
         <div class="row">
           <!-- Card pour Clients -->
           <div class="col-lg-4 col-md-6 mb-4">
@@ -224,13 +200,14 @@
                     <span class="fa-stack-1x">1</span>
                   </span>
                   <div class="media-body">
-                    <h5>Admin</h5>
+                    <h5>Module des utilisateurs</h5>
                     <ul>
                       <li>
-                        L'admin est responsable de la gestion du système,
-                        notamment de la supervision des autorisations des
-                        utilisateurs, de la maintenance du contenu et du bon
-                        fonctionnement.
+                        Authentification.
+                      </li>
+                      <li>Gestion de mon profil.</li>
+                      <li>
+                        Gestion des utilisateurs, des rôles et des permissions par l’administrateur.
                       </li>
                     </ul>
                   </div>
@@ -249,13 +226,16 @@
                     <span class="fa-stack-1x">2</span>
                   </span>
                   <div class="media-body">
-                    <h5>Coach</h5>
+                    <h5>Module des sites touristiques</h5>
                     <ul>
                       <li>
-                        Le coach fournit des conseils, une formation ou un
-                        mentorat à d'autres utilisateurs, notamment des
-                        entrepreneurs, pour les aider à atteindre leurs
-                        objectifs.
+                        Gestion des sites touristiques par l’administrateur.
+                      </li>
+                      <li>
+                        Visualisation des sites touristiques.
+                      </li>
+                      <li>
+                        Sélection des sites touristiques.
                       </li>
                     </ul>
                   </div>
@@ -274,13 +254,17 @@
                     <span class="fa-stack-1x">3</span>
                   </span>
                   <div class="media-body">
-                    <h5>Entrepreneur</h5>
+                    <h5>Module de notation
+                    </h5>
                     <ul>
                       <li>
-                        Un utilisateur novice ou entrepreneur local cherchant
-                        soutien et ressources sur la plateforme pour développer
-                        ses compétences et stratégies commerciales grâce aux
-                        outils et services de coaching.
+                        Faire une réservation au préalable.
+                      </li>
+                      <li>
+                        Consulter les notes des clients.
+                      </li>
+                      <li>
+                        Noter un guide historique.
                       </li>
                     </ul>
                   </div>
@@ -288,6 +272,157 @@
               </ul>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <span class="fa-stack">
+                    <span class="fas fa-circle fa-stack-2x"></span>
+                    <span class="fa-stack-1x">4</span>
+                  </span>
+                  <div class="media-body">
+                    <h5>Module d’abonnement
+                    </h5>
+                    <ul>
+                      <li>
+                        Lister les guides locaux.
+                      </li>
+                      <li>
+                        Choisir un guide et s'abonner.
+                      </li>
+                      <li>
+                        Gestion des abonnements par le guide.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <span class="fa-stack">
+                    <span class="fas fa-circle fa-stack-2x"></span>
+                    <span class="fa-stack-1x">5</span>
+                  </span>
+                  <div class="media-body">
+                    <h5>Modules des articles
+                    </h5>
+                    <ul>
+                      <li>
+                        Consulter les articles.
+                      </li>
+                      <li>
+                        Commenter un article.
+                      </li>
+                      <li>
+                        Aimer ou désapprouver un article.
+                      </li>
+                      <li>
+                        Gestion des articles par l’administrateur.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <span class="fa-stack">
+                    <span class="fas fa-circle fa-stack-2x"></span>
+                    <span class="fa-stack-1x">6</span>
+                  </span>
+                  <div class="media-body">
+                    <h5>Modules des événements
+                    </h5>
+                    <ul>
+                      <li>
+                        Gestion des événements par l’administrateur.
+                      </li>
+                      <li>
+                        Gestion et suivi des réservations par l'admin.
+                      </li>
+                      <li>
+                        Possibilité de visualiser un événement et éventuellement faire une réservation.
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <span class="fa-stack">
+                    <span class="fas fa-circle fa-stack-2x"></span>
+                    <span class="fa-stack-1x">7</span>
+                  </span>
+                  <div class="media-body">
+                    <h5>Modules des activités
+                    </h5>
+                    <ul>
+                      <li>
+                        Lister les activités
+                      </li>
+                      <li>
+                        Voir les détails d’une activité
+                      </li>
+                      <li>
+                        Gestion des activités
+                      </li>
+                      <li>
+                        Lier une activité à un site touristique.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <span class="fa-stack">
+                    <span class="fas fa-circle fa-stack-2x"></span>
+                    <span class="fa-stack-1x">8</span>
+                  </span>
+                  <div class="media-body">
+                    <h5>Module des excursions
+                    </h5>
+                    <ul>
+                      <li>
+                        Lister les fiches touristiques et éventuellement choisir un site.
+                      </li>
+                      <li>
+                        Sélectionner une excursion et passer une réservation.
+                      </li>
+                      <li>
+                        Gestion des activités
+                      </li>
+                      <li>
+                        Gestion des excursions et des réservations.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
         </div>
         <!-- end of row -->
       </div>
@@ -355,12 +490,9 @@
                     <span class="fa-stack-1x">3</span>
                   </span>
                   <div class="media-body">
-                    <h5>Angular 17</h5>
+                    <h5>Vue.js 3</h5>
                     <p>
-                      Angular 17 a été utilisé pour construire une application
-                      web dynamique et réactive, permettant une gestion efficace
-                      des données et des composants pour une expérience
-                      utilisateur fluide et optimisée sur tous les appareils.
+                      Vue.js 3 a été utilisé pour développer une application web réactive, facilitant la gestion des données et des composants. Sa simplicité et sa flexibilité permettent de créer des interfaces utilisateur intuitives, assurant une expérience fluide sur tous les appareils.
                     </p>
                   </div>
                 </li>
@@ -501,11 +633,10 @@
         <div class="row">
           <div class="col-xl-10 offset-xl-1">
             <p>
-                En résumé, Kaay Entreprendre se positionne comme un acteur clé dans
-                l’accompagnement des entrepreneurs novices. Avec notre plateforme, vous
-                bénéficiez d’un soutien complet, d’outils puissants, et d’un réseau enrichissant
-                pour transformer vos idées en succès concrets. Ensemble, façonnons l’avenir de
-                l’entrepreneuriat.
+              Le projet "Sénégal en vue" a permis de  développer une plateforme innovante pour promouvoir les sites touristiques méconnus du Sénégal, facilitant les échanges entre visiteurs et guides locaux. En plus de valoriser les compétences techniques et organisationnelles, cette initiative contribue au développement économique des communautés et à la mise en valeur du patrimoine. 
+            </p>
+            <p>
+              À l'avenir, l'ajout de fonctionnalités basées sur les retours des utilisateurs, comme des paiements en ligne sécurisés et des collaborations avec des agences de voyage, est envisagé.
             </p>
           </div>
           <!-- end of col -->
